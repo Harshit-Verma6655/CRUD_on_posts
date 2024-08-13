@@ -57,7 +57,7 @@ export function StickyNavbar() {
         });
         const data = await res.json();
         console.log(data);
-        navigate("/");
+        navigate("/login");
     }
 
     const navList = (
